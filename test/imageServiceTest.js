@@ -2,7 +2,7 @@ import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import fs from 'fs';
 import path from 'path';
-import imageService from '../dist/imageService.js';
+import imageService from '../lib/imageService.js';
 
 chai.use(chaiAsPromised);
 const expect = chai.expect;
