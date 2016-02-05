@@ -6,7 +6,7 @@ Written using [nodejs](https://nodejs.org/en/) with ES2015 & ES2016 features and
 ## Motivation
 I made this tool because a GroupMe music sharing group that I'm in relies on screenshots of your Spotify app while you're listening to music. Because GroupMe will archive all images sent in its gallery, this provides an easy way to look at all Spotify shares that have been sent to the app. 
 
-Unfortunately, this makes it very obnoxious to actually *listen* to the music because you now have to manually search for said artist/track in Spotify. Ugh!!! With this bot, we can port over to just utilizing Spotify share links (e.g., [https://open.spotify.com/track/64aCMaBE1o5aExuqAtVht6](https://open.spotify.com/track/64aCMaBE1o5aExuqAtVht6)). The bot will then parse these links, create a summary image with artist info using the Spotify API, and then send a generated image back to the chat so that the gallery archives are still retained. It's best of both worlds!
+Unfortunately, this makes it very obnoxious to actually *listen* to the music because you now have to manually search for said artist/track in Spotify. Ugh!!! With this bot, we can port over to just utilizing Spotify share links (e.g., [https://open.spotify.com/track/64aCMaBE1o5aExuqAtVht6](https://open.spotify.com/track/64aCMaBE1o5aExuqAtVht6)). The bot will then parse these links, create a summary image with artist info using the Spotify API, and then send a generated image back to the chat so that the gallery archives are still retained. It gives the best of both worlds!
 
 I also wanted to dork around with ES2015 & ES2016 features in node since I hadn't really done that before, so this was an opportunity to do so.
 
