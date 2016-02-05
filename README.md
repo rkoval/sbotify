@@ -11,20 +11,30 @@ Unfortunately, this makes it very obnoxious to actually *listen* to the music be
 I also wanted to dork around with ES2015 & ES2016 features in node since I hadn't really done that before, so this was an opportunity to do so.
 
 ## Installation
-```
-cd some/installation/directory
-git clone git@github.com:rkoval/sbotify.git
-cd sbotify
-npm install
-```
-Add the `--only=prod` option to `npm install` if you're installing to production. This will prevent unnecessary dev dependencies from being installed.
+1. Run these commands:
+   ```sh
+   cd some/installation/directory
+   git clone git@github.com:rkoval/sbotify.git
+   cd sbotify
+   npm install
+   ```
+   
+   Add the `--only=prod` option to `npm install` if you're installing to production. This will prevent unnecessary dev dependencies from being installed.
 
-Modify [config.js](lib/config.js) and populate your Spotify and GroupMe API tokens. Also make sure to populate the GroupMe `groupId` so that your bot knows where to listen from and send to.
+1. Modify [config.js](lib/config.js) and populate your Spotify and GroupMe API tokens. Also make sure to populate the GroupMe `groupId` so that your bot knows where to listen from and send to.
 
-Also make sure that your bot is configured for GroupMe:
+1. Install [ImageMagick](https://github.com/ImageMagick/ImageMagick). There are installation readmes in .txt form at the root of the project.
+
+1. Install [Ghostscript](http://www.ghostscript.com/), which is necessary for ImageMagick fonts
+
+   ```
+   brew install ghostscript
+   ```
+
+1. Make sure that your bot is configured for GroupMe:
 ![bot config](readme_images/bot_config.jpg)
 
-See [their documentation](https://dev.groupme.com/tutorials/bots) for more details on how to actually create a bot.
+   See [their documentation](https://dev.groupme.com/tutorials/bots) for more details on how to actually create a bot.
 
 
 ## Running the bot
