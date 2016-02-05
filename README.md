@@ -21,6 +21,12 @@ Add the `--only=prod` option to `npm install` if you're installing to production
 
 Modify [config.js](lib/config.js) and populate your Spotify and GroupMe API tokens. Also make sure to populate the GroupMe `groupId` so that your bot knows where to listen from and send to.
 
+Also make sure that your bot is configured for GroupMe:
+![bot config](readme_images/bot_config.jpg)
+
+See [their documentation](https://dev.groupme.com/tutorials/bots) for more details on how to actually create a bot.
+
+
 ## Running the bot
 For **local development**, use the runtime transpiler (which is discouraged in production by Babel):
 
