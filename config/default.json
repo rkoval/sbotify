@@ -1,0 +1,10 @@
+{
+  "spotify": {
+    "clientId" : "",
+    "clientSecret" : ""
+  },
+  "groupme": {
+    "accessToken": "",
+    "groupId": ""
+  }
+}
