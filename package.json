@@ -1,14 +1,19 @@
 {
   "name": "sbotify",
   "version": "0.1.0",
+  "engines": {
+    "npm": "2.8.3",
+    "node": "5.5.0"
+  },
   "description": "A pointless GroupMe bot that integrates with Spotify to create summary gallery images from Spotify share links",
   "repository": "https://github.com/rkoval/sbotify",
   "main": "index.js",
   "scripts": {
-    "build": "babel lib -d dist",
-    "start": "nodemon lib/index.js --exec babel-node",
     "clean": "rm -rf dist",
-    "serve": "node forever dist/index.js",
+    "dev": "nodemon lib/index.js --exec babel-node",
+    "prestart": "babel lib -d dist",
+    "start": "forever start dist/index.js",
+    "stop": "forever stop dist/index.js",
     "test": "mocha --compilers js:babel-register"
   },
   "dependencies": {
