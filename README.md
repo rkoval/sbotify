@@ -21,7 +21,7 @@ I also wanted to dork around with ES2015 & ES2016 features in node since I hadn'
    
    Add the `--only=prod` option to `npm install` if you're installing to production. This will prevent unnecessary dev dependencies from being installed.
 
-1. Modify [config.js](lib/config.js) and populate your Spotify and GroupMe API tokens. Also make sure to populate the GroupMe `groupId` so that your bot knows where to listen from and send to.
+1. Modify [the config](config/default.json) and populate your Spotify and GroupMe API tokens. Also make sure to populate the GroupMe `groupId` so that your bot knows where to listen from and send to.
 
 1. Install [ImageMagick](https://github.com/ImageMagick/ImageMagick). There are installation readmes in .txt form at the root of the project.
 
