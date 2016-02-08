@@ -5,6 +5,7 @@
   },
   "groupme": {
     "accessToken": "",
-    "groupId": ""
+    "groupId": "",
+    "botId": ""
   }
 }
