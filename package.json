@@ -9,9 +9,10 @@
   "repository": "https://github.com/rkoval/sbotify",
   "main": "index.js",
   "scripts": {
+    "build": "babel lib -d dist",
     "clean": "rm -rf dist",
     "dev": "nodemon lib/index.js --exec babel-node",
-    "prestart": "babel lib -d dist",
+    "postinstall": "npm run build",
     "start": "forever dist/index.js",
     "stop": "forever stop dist/index.js",
     "test": "mocha --compilers js:babel-register"

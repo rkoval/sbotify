@@ -41,12 +41,12 @@ I also wanted to dork around with ES2015 & ES2016 features in node since I hadn'
 For **local development**, use the runtime transpiler (which is discouraged in production by Babel):
 
 ```
-npm start
+npm run dev
 ```
 For **production**, transpile all JS resources and then run the generated assets:
 
 ```
-npm run build && npm run serve
+npm postinstall && npm start
 ```
 
 (See [package.json](package.json) for more details on what these tasks actually do.)
