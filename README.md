@@ -1,7 +1,7 @@
 # sbotify
 A pointless GroupMe bot that integrates with Spotify to create summary gallery images from Spotify share links. 
 
-Written using [nodejs](https://nodejs.org/en/) with ES2015 & ES2016 features and transpiled via [Babel](https://babeljs.io/).
+Written using [Node.js](https://nodejs.org/en/) with ES2015 & ES2016 features and transpiled via [Babel](https://babeljs.io/).
 
 ## Motivation
 I made this tool because a GroupMe music sharing group that I'm in relies on screenshots of your Spotify app while you're listening to music. Because GroupMe will archive all images sent in its gallery, this provides an easy way to look at all Spotify shares that have been sent to the app. 
