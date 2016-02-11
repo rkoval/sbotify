@@ -30,7 +30,7 @@
     "spotify-web-api-node": "^2.2.0"
   },
   "author": "Ryan Koval <ryan@ryankoval.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-register": "^6.4.3",
     "chai": "^3.5.0",
