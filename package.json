@@ -15,6 +15,7 @@
     "postinstall": "npm run build",
     "start": "forever dist/index.js",
     "stop": "forever stop dist/index.js",
+    "push": "npm test && git push",
     "test": "mocha --compilers js:babel-register"
   },
   "dependencies": {
