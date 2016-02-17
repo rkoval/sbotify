@@ -2,7 +2,7 @@
   "name": "sbotify",
   "version": "0.1.0",
   "engines": {
-    "npm": "2.8.3",
+    "npm": "3.7.1",
     "node": "5.6.0"
   },
   "description": "A pointless GroupMe bot that integrates with Spotify to create summary gallery images from Spotify share links",
