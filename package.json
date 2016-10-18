@@ -16,7 +16,7 @@
     "start": "forever dist/index.js",
     "stop": "forever stop dist/index.js",
     "push": "npm test && git push",
-    "test": "mocha --compilers js:babel-register"
+    "test": "eslint . && mocha --compilers js:babel-register"
   },
   "dependencies": {
     "babel-cli": "^6.4.5",
@@ -38,7 +38,7 @@
     "babel-register": "^6.4.3",
     "chai": "^3.5.0",
     "chai-as-promised": "^5.2.0",
-    "eslint": "^1.10.3",
+    "eslint": "^3.8.1",
     "mocha": "^2.4.5",
     "nodemon": "^1.8.1"
   }
