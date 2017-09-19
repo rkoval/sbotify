@@ -1,3 +1,6 @@
+# DEPRECATION NOTICE
+_For all 0 people on the internet who have expressed interested in this project, I am deprecating this project since Spotify now requires OAuth credentials for all of its endpoints now in addition to its API token. This means that there needs to be some sort of automated credential renewer that will maintain proper OAuth credentials within this library. Since this project is pointless anyways, I don't really see a need to implement it; thus, I no longer plan on using this library. Feel free to fork and implement if you really need it._
+
 # sbotify
 A pointless GroupMe bot that integrates with Spotify to create summary gallery images from Spotify share links. 
 
